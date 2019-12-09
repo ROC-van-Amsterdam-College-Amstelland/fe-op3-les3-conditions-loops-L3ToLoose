@@ -1,4 +1,4 @@
-//javascript code
+//javescript code
 var tekst = ""
 for (let i = 0; i <= 20; i+= 1) {
     rest = i % 2;
