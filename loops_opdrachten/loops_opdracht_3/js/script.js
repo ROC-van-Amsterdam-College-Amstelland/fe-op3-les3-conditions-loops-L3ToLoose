@@ -1,6 +1,6 @@
 //javascript code
 var i;
-var tekst=""';
+var tekst="";
 for (let i = 1; i <=50; i++)
     if (i==20 || i==50) {
         tekst += "dit is mooi getal<br>";
@@ -9,6 +9,5 @@ for (let i = 1; i <=50; i++)
         tekst += i + "<br>";
     }
         console.log(i);
-}
 
 document.getElementById("uitvoer").innerHTML=tekst;
